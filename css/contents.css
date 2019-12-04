@@ -1,0 +1,544 @@
+@charset "EUC-JP";
+
+/* =========================================================
+contents
+========================================================= */
+div#contents {
+	margin: 0 0 20px;
+	padding: 0 20px;
+	background: url(../img/common/bg_sub.gif) repeat-y 20px 0;
+}
+
+/* =========================================================
+main
+========================================================= */
+div#contents div#main {
+	float: right;
+	width: 670px;
+}
+
+/* heading
+----------------------------------------------- */
+div#main h2 {
+	margin: 0 0 10px;
+	padding: 5px;
+	background: #AAB7B7;
+	color: #FFFFFF;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+div#main h3 {
+	margin: 10px 0;
+	padding: 2px 0 2px 5px;
+	background: #F4F4F4;
+	border-bottom: 1px #CCCCCC dotted;
+	font-size: 110%;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+div#main h4 {
+	margin: 10px 0;
+	color: #663300;
+	font-weight: bold;
+}
+
+div#main h5 {
+	color: #666;
+	font-weight: bold;
+}
+
+
+/* paragraph
+----------------------------------------------- */
+div#main p {
+	margin: 0 0 1em;
+	line-height: 1.5;
+}
+
+div#main p.date {
+	margin-top: -10px;
+	text-align: right;
+}
+
+div#main span.note {
+	color: #663300;
+	font-weight: normal;
+}
+
+div#main strong {
+	font-weight: bold;
+}
+
+div#main p.setImg {
+	text-align: center;
+}
+
+div#main p.setImg img {
+	border: 5px #ECECEC solid;
+}
+
+div#main p.setDate {
+	text-align: right;
+}
+
+/* list
+----------------------------------------------- */
+div#main ul {
+	margin: 0 5px 1em;
+}
+
+div#main ul li {
+	margin: 0 0 3px;
+	padding: 0 0 0 20px;
+	background: url(../img/common/ic_list.gif) no-repeat 5px 7px;
+	line-height: 1.5;
+}
+
+div#main ol {
+	margin: 0 5px 1em 30px;
+}
+
+div#main ol li {
+	margin: 0 0 3px;
+	line-height: 1.5;
+}
+div#main ol li ul li {
+	list-style-type: none;
+}
+
+div#main dl {
+	margin: 0;
+}
+
+div#main dl dt {
+	margin: 0 0 5px;
+	color: #663300;
+	font-weight: bold;
+}
+
+div#main dl dd {
+	margin: 0 0 1em;
+}
+
+/* latinList */
+div#main ol.latinList li {
+	list-style-type: lower-alpha;
+}
+
+/* listError */
+div#main ul.listError li {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+
+/* table
+----------------------------------------------- */
+div#main table {
+	width: 100%;
+	margin: 0 auto 1em;
+	border: 1px #AAB7B7 solid;
+}
+
+div#main table th {
+	padding: 10px;
+	color: #666;
+	background: #F4F4F4;
+	border-bottom: 1px #CECECE dotted;
+	font-weight: bold;
+}
+
+div#main table td {
+	width: 450px;
+	padding: 10px;
+	border-bottom: 1px #CECECE dotted;
+}
+
+/* tableForm */
+div#main div.tableForm table {
+	width: 500px;
+}
+
+div#main div.tableForm table caption {
+	color: #663300;
+	font-size: 110%;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+div#main div.tableForm table td {
+	width: 320px;
+}
+
+div#main div.tableForm table th span {
+	margin: 0 2px;
+	color: #663300;
+	font-weight: normal;
+}
+
+div#main div.tableForm table td input {
+	width: 150px;
+	margin: 1px 0;
+}
+
+div#main div.tableForm table td input.inputS {
+	width: 40px;
+}
+
+div#main div.tableForm table td input.inputL {
+	width: 250px;
+}
+
+div#main div.tableForm table td textarea {
+	width: 250px;
+	height: 50px;
+}
+
+div#main div.tableForm p {
+	text-align: center;
+}
+
+div#main div.tableForm th.tableLead {
+	font-weight: normal;
+	border-bottom: 1px solid #AAB7B7;
+}
+
+/* link
+----------------------------------------------- */
+div#main p.commonLink {
+	padding-left: 20px;
+	background: url(../img/common/ic_link.gif) no-repeat 0 6px;
+}
+
+/* sectionList
+----------------------------------------------- */
+div#main div.sectionList {
+	position: relative;
+	margin: 0 0 2em;
+}
+
+div#main div.sectionList h2,
+div#main div.sectionList h3 {
+	margin: 0;
+	padding: 7px 10px;
+	border: none;
+	color: #000;
+	background: url(../img/common/bg_section_list.gif) no-repeat 0 100%;
+	font-size: 100%;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+div#main div.sectionList dl {
+	margin: 0 0 10px;
+	padding: 0 5px;
+}
+
+div#main div.sectionList dl dt {
+	float: left;
+	width: 6.5em;
+	margin: 0;
+	padding: 8px 0;
+	color: #333;
+	font-weight: normal;
+	line-height: 1.4;
+}
+
+div#main div.sectionList dl dd {
+	margin: 0;
+	padding: 8px 0 8px 8em;
+	line-height: 1.4;
+	border-bottom: 1px #CECECE dotted;
+}
+
+*html div#main div.sectionList dl dd { /* Hack for IE6 */
+	zoom: normal;
+}
+
+*+html div#main div.sectionList dl dd { /* Hack for IE7 */
+	zoom: normal;
+}
+
+div#main div.sectionList dl dd.person,
+div#main div.sectionList dl dd.tieup,
+div#main div.sectionList dl dd.both {
+	background-repeat: no-repeat;
+	background-position: 6.5em 9px;
+}
+
+div#main div.sectionList dl dd.person {
+	background-image: url(../img/common/ic_person.gif);
+}
+
+div#main div.sectionList dl dd.tieup {
+	background-image: url(../img/common/ic_tieup.gif);
+}
+
+div#main div.sectionList dl dd.both {
+	background-image: url(../img/common/ic_both.gif);
+	padding-left: 9.5em;
+}
+
+div#main div.sectionList dl dd.important {
+	font-weight: bold;
+}
+
+
+div#main div.sectionList dl dd span.new {
+	margin: 0 5px 0 0;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+/* ----- ex -----*/
+div#main div.sectionList ul.ex {
+	position: absolute;
+	top: 7px;
+	right: 5px;
+	margin: 0;
+	font-size: 84%;
+}
+
+div#main div.sectionList ul.ex li {
+	display: inline;
+	margin: 0 0 0 10px;
+	padding: 2px 0;
+	line-height: 1.4;
+}
+
+div#main div.sectionList ul.ex li.person,
+div#main div.sectionList ul.ex li.tieup {
+	padding-left: 20px;
+	background-repeat: no-repeat;
+}
+
+div#main div.sectionList ul li.person {
+	background-image: url(../img/common/ic_person.gif);
+	background-position: 0 0;
+}
+
+div#main div.sectionList ul li.tieup {
+	background-image: url(../img/common/ic_tieup.gif);
+	background-position: 0 0;
+}
+
+
+
+/* noList */
+div#main div.sectionList p {
+	margin: 1em;
+}
+
+
+/* memberList
+----------------------------------------------- */
+div#main div#memberList dl {
+	width: 670px;
+}
+
+div#main div#memberList dl dt {
+	margin: 10px 0;
+	padding: 2px 0 2px 5px;
+	background: #F4F4F4;
+	color: #333;
+	border-bottom: 1px #CCCCCC dotted;
+	font-size: 110%;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+div#main div#memberList dl dt span {
+	margin: 0 0 0 1em;
+	font-size: 90%;
+	color: #666;
+}
+
+div#main div#memberList dl dd {
+	margin: 0;
+	padding: 0 0 10px;
+}
+
+div#main div#memberList dl dd p {
+	margin: 0;
+	float: left;
+}
+
+div#main div#memberList dl dd p.img {
+	width: 110px;
+}
+
+div#main div#memberList dl dd p.img img {
+	border: 5px #ECECEC solid;
+}
+
+div#main div#memberList dl dd p.text {
+	width: 560px;
+}
+
+/* articleHead
+----------------------------------------------- */
+div#main div.articleHead {
+	margin: 0 0 10px;
+	background: #AAB7B7;
+}
+
+div#main div.articleHead h2 {
+	float: left;
+	width: 520px;
+	margin: 0;
+}
+
+div#main div.articleHead p {
+	float: right;
+	width: 100px;
+	margin: 0;
+	padding: 5px;
+	color: #FFF;
+	text-align: right;
+}
+
+/* articleData
+----------------------------------------------- */
+div#main div#articleData {
+	padding: 10px;
+	background: #F4F4F4;
+	border: 1px #AAB7B7 solid;
+}
+
+div#main div#articleData dl dd,
+div#main div#articleData ul {
+	margin-bottom: 0
+}
+
+/* inveArticle
+----------------------------------------------- */
+div#main div#inveArticle ol {
+	margin: 0 0 2em;
+	padding: 0;
+}
+div#main div#inveArticle ol li {
+	margin: 0 1.5em 1em;
+	list-style-type: none;
+	text-indent: -1.5em;
+}
+div#main div#inveArticle ol li ol,
+div#main div#inveArticle ol li ul {
+	margin: 0;
+}
+div#main div#inveArticle ol li ul li {
+	text-indent: 0;
+}
+
+div#main div#inveArticle table {
+	margin: 0 0 1em;
+}
+div#main div#inveArticle table th {
+	white-space: nowrap;
+}
+div#main div#inveArticle table th,
+div#main div#inveArticle table td {
+	padding: 5px;
+	text-align: left;
+	vertical-align: top;
+}
+
+div#main div#inveArticle ol li table {
+	text-indent: 0;
+}
+
+
+/* sitemapColumn
+----------------------------------------------- */
+div#main div.sitemapColumnLeft {
+	float: left;
+	width: 325px;
+}
+div#main div.sitemapColumnRight {
+	float: right;
+	width: 325px;
+}
+
+
+/* =========================================================
+Sub
+========================================================= */
+div#sub {
+	float: left;
+	width: 230px;
+}
+
+/* heading
+----------------------------------------------- */
+div#sub h2 {
+	padding: 5px 10px;
+	color: #FFF;
+	background: #999999;
+	font-weight: bold;
+}
+
+/* nav sub
+----------------------------------------------- */
+div#sub div#navSub ul {
+	margin: 0 0 10px;
+	padding: 5px 10px 0;
+}
+
+div#sub div#navSub ul li {
+	display: inline;
+}
+
+div#sub div#navSub ul li a {
+	display: block;
+	width: 190px;
+	margin: 0;
+	padding: 5px 0 5px 25px;
+	background-image: url(../img/common/ic_link.gif);
+	background-repeat: no-repeat;
+	background-position: 5px 9px;
+	border-bottom: 1px #CECECE dotted;
+	line-height: 1.4;
+}
+
+div#sub div#navSub ul li ul {
+	margin: 0;
+	padding-top: 0;
+}
+
+div#sub div#navSub ul li ul a {
+	width: 180px;
+}
+
+div#sub div#navSub ul li a:hover,
+div#sub div#navSub ul li a:active {
+	color: #FF6600;
+	background-color: #FFDDCC;
+	text-decoration: none;
+}
+
+div#sub div#navSub ul li.current a {
+	background-image: url(../img/common/ic_link_current.gif);
+}
+
+div#sub p {
+	margin: 0 0 10px;
+	padding: 5px 0 5px 10px;
+}
+
+div#sub p a {
+	display: block;
+	width: 190px;
+	margin: 0;
+	padding: 5px 0 5px 25px;
+	background: #EAEAEA url(../img/common/ic_link.gif) no-repeat 5px 9px;
+	line-height: 1.4;
+}
+
+div#sub p a:hover,
+div#sub p a:active {
+	color: #FF6600;
+	background-color: #FFDDCC;
+	text-decoration: none;
+}
+

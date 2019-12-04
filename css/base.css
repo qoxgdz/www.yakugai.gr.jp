@@ -1,0 +1,267 @@
+@charset "EUC-JP";
+
+/* =========================================================
+body
+========================================================= */
+body {
+	background: #F4F4F4;
+	font-size: 13px;
+	*font-size: 81.25%; /* for IE6,IE7 */
+	color: #333333;
+	text-align: center;
+}
+
+/* link color
+----------------------------------------------- */
+body a:link,
+body a:visited {
+	color: #006699;
+	text-decoration: none;
+}
+body a:hover,
+body a:active {
+	color: #0066CC;
+	text-decoration: underline;
+}
+
+/* =========================================================
+container
+========================================================= */
+div#container {
+	width: 960px;
+	margin: 0 auto 10px;
+	border-width: 0 1px 1px;
+	border-style: solid;
+	border-color: #CECECE;
+	background: #FFFFFF;
+	text-align: left;
+}
+
+/* =========================================================
+header
+========================================================= */
+div#header {
+	position: relative;
+	height: 84px;
+}
+
+div#header #siteLogo {
+	position: absolute;
+	top: 25px;
+	left: 15px;
+	width: 320px;
+	height: 45px;
+	background: url(../img/common/bg_logo.gif) no-repeat 100% 0;
+}
+
+div#header p#tagline {
+	position: absolute;
+	top: 57px;
+	left: 15px;
+	font-size: 76%;
+}
+
+/* navUtility
+----------------------------------------------- */
+div#header div#navUtility {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	width: 500px;
+	text-align: right;
+}
+
+div#header div#navUtility ul {
+	display: inline;
+}
+
+div#header div#navUtility li {
+	display: inline;
+	margin-left: 15px;
+	padding-left: 20px;
+	background: url(../img/common/ic_link.gif) no-repeat 0 4px;
+}
+
+/* searchArea
+----------------------------------------------- */
+div#header div#searchArea {
+	position: absolute;
+	top: 40px;
+	right: 20px;
+	width: 500px;
+}
+
+div#header div#searchArea p {
+	text-align: right;
+}
+
+div#header div#searchArea input#searchInput {
+	width: 150px;
+	padding: 1px;
+}
+
+/* =========================================================
+nav
+========================================================= */
+div#nav {
+	margin: 0 0 2px;
+	border-top: 1px #CECECE solid;
+	background: url(../img/common/bg_nav.gif) repeat-x 0 100%;
+}
+
+div#nav ul li {
+	display: inline;
+	float: left;
+	background: url(../img/common/bg_nav_line.gif) no-repeat 0 50%;
+}
+
+div#nav ul li a {
+	display: block;
+	float: left;
+	width: 120px;
+	padding: 15px 0;
+	height: 17px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+/* navHome
+---------------------------------------------- */
+div#nav ul li#navHome {
+	background: none;
+}
+
+div#nav ul li#navHome a {
+	width: 120px;
+}
+
+/* link
+---------------------------------------------- */
+div#nav ul li a:link,
+div#nav ul li a:visited {
+	color: #333333;
+}
+
+div#nav ul li a:hover,
+div#nav ul li a:active {
+	background: url(../img/common/bg_nav_on.gif) repeat-x 0 100%;
+	color: #FF6600;
+}
+
+/* current
+---------------------------------------------- */
+div#nav ul li.current a:link,
+div#nav ul li.current a:visited,
+div#nav ul li.current a:hover,
+div#nav ul li.current a:active {
+	background: url(../img/common/bg_nav_on.gif) repeat-x 0 100%;
+	color: #FF6600;
+}
+
+
+/* =========================================================
+contents title
+========================================================= */
+div#pageTitle {
+	height: 90px;
+	margin: 0 0 10px;
+	border-bottom: 1px #CECECE solid;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-image: url(../img/common/bg_h1_other.jpg);
+}
+
+div#pageTitle.activity { background-image: url(../img/common/bg_h1_activity.jpg); }
+div#pageTitle.inve { background-image: url(../img/common/bg_h1_inve.jpg); }
+div#pageTitle.bulletin { background-image: url(../img/common/bg_h1_bulletin.jpg); }
+div#pageTitle.attention { background-image: url(../img/common/bg_h1_attention.jpg); }
+div#pageTitle.about { background-image: url(../img/common/bg_h1_about.jpg); }
+div#pageTitle.tieup { background-image: url(../img/common/bg_h1_tieup.jpg); }
+
+div#pageTitle h1 {
+	margin-left: 20px;
+	color: #000;
+	line-height: 90px;
+	font-weight: bold;
+	font-size: 170%;
+}
+
+
+/* =========================================================
+topicPath
+========================================================= */
+div#topicPath {
+	margin: 0 20px 10px;
+}
+
+div#topicPath ol {
+	list-style-type: none;
+}
+
+div#topicPath ol li {
+	float: left;
+	padding-left: 15px;
+	background: url(../img/common/ic_topicpath.gif) no-repeat 5px 50%;
+	list-style-type: none;
+}
+
+div#topicPath ol li#topicPathHome {
+	padding-left: 0;
+	background: none;
+}
+
+
+/* =========================================================
+footer
+========================================================= */
+div#footer {
+	padding: 10px 20px;
+	border-top: 1px #CECECE solid; 
+	border-bottom: 1px #FFFFFF solid; 
+	background: #F4F4F4;
+}
+
+div#footer p#siteAdress {
+	float: left;
+	width: 350px;
+	line-height: 1.5;
+}
+
+/* footerInner
+---------------------------------------------- */
+div#footer div#footerInner {
+	float: right;
+	width: 570px;
+	text-align: right;
+}
+
+/* ----- navFooter ----- */
+div#footer div#footerInner ul#navFooter {
+	margin: 0 0 10px;
+	text-align: right;
+}
+
+div#footer div#footerInner ul#navFooter li {
+	display: inline;
+	margin-left: 15px;
+	padding-left: 20px;
+	background: url(../img/common/ic_link.gif) no-repeat 0 3px;
+}
+
+/* ----- siteInfo ----- */
+div#footer div#footerInner p#siteInfo {
+	margin: 0 0 10px;
+	color: #666666;
+	font-size: 76%;
+	line-height: 1.5;
+	text-align: left;
+}
+
+/* ----- copyright ----- */
+div#footer div#footerInner p#copyright {
+	margin: 0 0 10px;
+	text-align :right;
+}
+

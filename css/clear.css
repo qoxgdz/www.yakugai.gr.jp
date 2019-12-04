@@ -1,0 +1,59 @@
+@charset "EUC-JP";
+
+/* =========================================================
+Clearfix
+========================================================= */
+
+.clearfix:after,
+.group:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+.clearfix, .group {
+	display: inline-table;
+	min-height: 1%;
+}
+/* Hides from IE-mac \*/
+* html .clearfix,
+* html .group { height: 1%; }
+.clearfix,
+.group { display: block; }
+/* End hide from IE-mac */
+
+/* ------------------------------------------------------ */
+
+div#nav:after,
+div#contents:after,
+div#footer:after,
+div#topicPath ol:after,
+div#memberList dl dd:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+div#nav,
+div#contents,
+div#footer,
+div#topicPath ol,
+div#memberList dl dd {
+	position: relative;
+	display: inline-table;
+	min-height: 1%;
+}
+/* Hides from IE-mac \*/
+* html div#nav,
+* html div#contents,
+* html div#footer,
+* html div#topicPath ol,
+* html div#memberList dl dd { height: 1%; }
+div#nav,
+div#contents,
+div#footer,
+div#topicPath ol,
+* html div#memberList dl dd { display: block; }
+/* End hide from IE-mac */

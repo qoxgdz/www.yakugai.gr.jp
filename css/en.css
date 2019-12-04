@@ -1,0 +1,64 @@
+@charset "EUC-JP";
+
+/* =========================================================
+header
+========================================================= */
+div#header #siteLogo {
+	width: 490px;
+}
+
+div#header p#tagline {
+	left: 20px;
+}
+
+
+/* =========================================================
+nav
+========================================================= */
+div#nav ul li a {
+	width: 192px;
+}
+
+/* navHome
+---------------------------------------------- */
+div#nav ul li#navHome a {
+	width: 192px;
+}
+
+
+/* =========================================================
+footer
+========================================================= */
+div#footer p#siteAdress {
+	font-size: 93%;
+}
+
+
+/* =========================================================
+Contents
+========================================================= */
+div#main div.sectionList dl dd.person,
+div#main div.sectionList ul li.person {
+	background-image: url(../img/common/ic_person_en.gif);
+}
+div#main div.sectionList dl dd.tieup,
+div#main div.sectionList ul li.tieup {
+	background-image: url(../img/common/ic_tieup_en.gif);
+}
+
+div#main div.sectionList dl dd.both,
+div#main div.sectionList ul li.both {
+	background-image: url(../img/common/ic_both_en.gif);
+}
+
+/* =========================================================
+prHome
+========================================================= */
+div#prHome {
+	background: url(../img/home/bg_prnav_en.gif) repeat-y 0 0;
+}
+
+div#prHome ul li {
+	float: left;
+	width: 320px;
+}

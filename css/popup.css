@@ -1,0 +1,116 @@
+@charset "EUC-JP";
+
+@import url(reset.css);
+
+
+
+
+/* =========================================================
+popup
+========================================================= */
+body {
+	font-size: 90%;
+}
+
+/* link color
+----------------------------------------------- */
+body a:link,
+body a:visited {
+	color: #006699;
+	text-decoration: none;
+}
+body a:hover,
+body a:active {
+	color: #0066CC;
+	text-decoration: underline;
+}
+
+
+div#container {
+	padding: 10px 15px;
+}
+
+
+/* close
+----------------------------------------------- */
+p.close {
+	font-size: 80%;
+	text-align: right;
+}
+p.close a {
+	padding: 2px 0 2px 15px;
+	background: url(../img/common/ic_close.gif) no-repeat 0 50%;
+}
+
+
+/* header
+----------------------------------------------- */
+div#header {
+	margin: 0 0 10px;
+}
+
+div#header p.date {
+	margin: 0 0 2px;
+	font-size: 90%;
+}
+
+div#header h1 {
+	margin: 0 0 5px;
+	padding: 5px;
+	background: #AAB7B7;
+	font-weight: bold;
+}
+
+div#header p.author {
+	margin: 0 0 5px;
+	padding: 0 0 5px;
+	border-bottom: 1px #AAB7B7 solid;
+	font-size: 90%;
+	text-align: right;
+}
+
+
+/* popupBody
+----------------------------------------------- */
+div.popupBody {
+	line-height: 1.5;
+}
+
+div.popupBody p {
+	margin: 0 0 1em;
+	line-height: 1.5;
+}
+
+div.popupBody ul {
+	margin: 0 5px 1em;
+}
+div.popupBody ul li {
+	padding: 0 0 0 15px;
+	background: url(../img/common/ic_list.gif) no-repeat 3px 7px;
+	line-height: 1.5;
+
+}
+
+div.popupBody ol {
+	margin: 0 5px 1em 30px;
+}
+div.popupBody ol li {
+	line-height: 1.5;
+}
+
+
+
+/* footer
+----------------------------------------------- */
+div#footer {
+	margin: 10px -10px 0;
+	padding: 10px;
+	border-top: 1px #CCCCCC solid;
+	background: #F4F4F4;
+}
+
+div#footer p#copyright {
+	margin: 0;
+	text-align: right;
+}
+
